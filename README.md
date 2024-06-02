@@ -92,3 +92,35 @@ Ademas de el control de versiones, Github nos permite realizar **acciones automa
 Para más información, se sugiere revisar la [documentación oficial de Github](https://docs.github.com/es)
 
 ### Entrega
+
+[archivo](./entrega/ejercicio.md) `entrega/ejercicio.md`, en este archivo se encuentra la consigna del ejercicio a realizar.
+
+Para realizar la entrega, se debe seguir los siguientes pasos:
+
+1. Duplicar el repositorio en su cuenta de Github usando el template provisto. Para ello, se debe hacer click en el botón "Use this template" en la parte superior de la página. [ver guia](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+![Use this template](./images/use-this-template-button.webp)
+
+2. Clonar el repositorio en su computadora.
+
+```bash
+git clone https://github.com/<suNombre>/<nombreDelRepo>
+cd nombreDelRepo
+```
+
+3. Realizar los cambios necesarios acorde a el archivo `entrega/ejercicio.md` para completar la consigna del ejercicio.
+
+4. Agregar los cambios al área de preparación y realizar un commit.
+
+```bash
+git add .
+git commit -m "Entrega de Nombre Apellido - NroEstudiante"
+```
+
+5. Subir los cambios al repositorio remoto.
+
+```bash
+git push
+```
+
+6. Copiar la URL del repositorio y enviarla por Teams. _(Asegurarse de que el repositorio sea publico, para que pueda ser accedido por los docentes)._
