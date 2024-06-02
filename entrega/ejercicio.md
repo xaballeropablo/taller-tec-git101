@@ -16,7 +16,7 @@ Para ello, se debe poder ingresar **nombre** y **cédula** del dueño, **nombre*
 #### Validaciones
 
 - El nombre del dueño y de la mascota no pueden ser vacíos.
-- Debe poder validarse que tenga el simbolo de @ en el mail
+- Debe poder validarse que tenga el s&iacute;mbolo de @ en el mail
 - Debe verificar que su cédula no exista en el sistema previamente.
 
 Una vez verificado, se ingresa el socio al archivo `socios.txt` con

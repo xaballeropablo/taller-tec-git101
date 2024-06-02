@@ -1,38 +1,38 @@
-# CVS y Github
+# CVS y GitHub
 
-Se realizará un introducción a Git y Github, en el cual se explicara el uso de los mismos y se realizará una práctica entregable de forma individual.
+Se realizar&aacute; una introducci&oacute;n a Git y GitHub, en el cual se explicar&aacute; el uso de estos y se realizar&aacute; una pr&aacute;ctica entregable de forma individual.
 
 ## Requisitos previos
 
-- Tener instalado Git en su computadora. Si no lo tiene instalado, puede descargarlo desde [aqui](https://git-scm.com/downloads).
-- Tener una cuenta en Github. Si no tiene una cuenta, puede crear una desde [aqui](https://github.com/join).
+- Tener instalado Git en su computadora. Si no lo tiene instalado, puede descargarlo desde [aqu&iacute;](https://git-scm.com/downloads).
+- Tener una cuenta en Github. Si no tiene una cuenta, puede crear una desde [aqu&iacute;](https://github.com/join).
 
 ## Contenido
 
-- [CVS y Github](#cvs-y-github)
-  - [Introduccion a Git](#introduccion-a-git)
-  - [Introduccion a Github](#introduccion-a-github)
+- [CVS y GitHub](#cvs-y-github)
+  - [Introducci&oacute;n a Git](#introduccion-a-git)
+  - [Introducci&oacute;n a GitHub](#introduccion-a-github)
   - [Entrega](#entrega)
 
-Se sujiere seguir el contenido en el orden presentado, tambien es importante revisar los recursos adicionales que estan disponibles en [Aulas](https://aulas.ort.edu.uy/course/view.php?id=4095&section=15#tabs-tree-start).
+Se sugiere seguir el contenido en el orden presentado, tambi&eacute;n es importante revisar los recursos adicionales que est&aacute;n disponibles en [Aulas](https://aulas.ort.edu.uy/course/view.php?id=4095&section=15#tabs-tree-start).
 
 ### Introduccion a Git
 
 #### Que es Git?
 
 Git es un sistema de control de versiones distribuido, que permite llevar un control de los cambios realizados en un proyecto. Git es ampliamente utilizado en la industria del desarrollo de software, ya que permite trabajar en equipo de forma eficiente y segura.
-Destaca por su rapidez, eficiencia y soporte para proyectos de cualquier tamaño. Se puede utilizar tanto en proyectos locales como en proyectos distribuidos (remotos).
+Destaca por su rapidez, eficiencia y soporte para proyectos de cualquier tama&ntilde;o. Se puede utilizar tanto en proyectos locales como en proyectos distribuidos (remotos).
 
-A continuación se presentan comandos básicos de Git que se utilizaran en el taller.
+A continuaci&oacute;n, se presentan comandos b&aacute;sicos de Git que se utilizaran en el taller.
 
-**Se sugiere revisar la [documentacion oficial de Git](https://git-scm.com/docs) para obtener mas informacion sobre los comandos y su uso.**
+**Se sugiere revisar la [documentaci&oacute;n oficial de Git](https://git-scm.com/docs) para obtener m&aacute;s informaci&oacute;n sobre los comandos y su uso.**
 
-#### Comandos básicos de Git
+#### Comandos b&aacute;sicos de Git
 
 - `git init`: Inicializa un repositorio de Git en el directorio actual.
-- `git add .`: Agrega todos los archivos al área de preparación.
-  - `git add <archivo>`: Agrega un archivo al área de preparación.
-- `git commit -m "<mensaje>"`: Crea un commit con los archivos en el área de preparación.
+- `git add .`: Agrega todos los archivos al &aacute;rea de preparaci&oacute;n.
+  - `git add <archivo>`: Agrega un archivo al &aacute;rea de preparaci&oacute;n.
+- `git commit -m "<mensaje>"`: Crea un commit con los archivos en el &aacute;rea de preparaci&oacute;n.
 - `git status`: Muestra el estado actual del repositorio.
 - `git log`: Muestra el historial de commits.
 - `git diff`: Muestra los cambios realizados en los archivos.
@@ -60,19 +60,19 @@ A continuación se presentan comandos básicos de Git que se utilizaran en el ta
 
 Los archivos en Git pueden estar en tres estados diferentes:
 
-- **Modificado**: El archivo ha sido modificado pero no ha sido agregado al area de preparacion (**_modified_**).
-- **Preparado**: El archivo ha sido agregado al area de preparacion (**_staged_**).
+- **Modificado**: El archivo ha sido modificado, pero no ha sido agregado al &aacute;rea de preparaci&oacute;n (**_modified_**).
+- **Preparado**: El archivo ha sido agregado al &aacute;rea de preparaci&oacute;n (**_staged_**).
 - **Confirmado**: El archivo ha sido confirmado en el repositorio (**_committed_**).
 
 ### Introduccion a Github
 
 #### Que es Github?
 
-Github es una plataforma de desarrollo colaborativo que permite alojar proyectos utilizando el sistema de control de versiones Git. Nos permite crear **repositorios**, **colaborar en proyectos**, realizar **seguimiento de problemas** y mucho más. Genera un entorno de trabajo colaborativo y social, que facilita la interacción entre los miembros de un equipo de desarrollo.
+GitHub es una plataforma de desarrollo colaborativo que permite alojar proyectos utilizando el sistema de control de versiones Git. Nos permite crear **repositorios**, **colaborar en proyectos**, realizar **seguimiento de problemas** y mucho m&aacute;s. Genera un entorno de trabajo colaborativo y social, que facilita la interacci&oacute;n entre los miembros de un equipo de desarrollo.
 
-Ademas de el control de versiones, Github nos permite realizar **acciones automatizadas**, **integración continua**, **despliegue continuo** y **gestión de proyectos**, entre otras funcionalidades.
+Adem&aacute;s del control de versiones, GitHub nos permite realizar **acciones automatizadas**, **integraci&oacute;n continua**, **despliegue continuo** y **gesti&oacute;n de proyectos**, entre otras funcionalidades.
 
-#### Guías útiles para trabajar con Github
+#### Gu&iacute;as útiles para trabajar con GitHub
 
 - [Crear un repositorio](https://docs.github.com/es/github/getting-started-with-github/create-a-repo)
 - [Clonar un repositorio](https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
@@ -85,11 +85,11 @@ Ademas de el control de versiones, Github nos permite realizar **acciones automa
 - Que es un [issue](https://docs.github.com/es/github/managing-your-work-on-github/about-issues)?
   - [Crear un issue](https://docs.github.com/es/github/managing-your-work-on-github/creating-an-issue)
   - [Asignar un issue](https://docs.github.com/es/github/managing-your-work-on-github/assigning-issues-and-pull-requests-to-other-github-users)
-- [Cambiar la visibilidad de un repositorio](https://docs.github.com/es/github/administering-a-repository/managing-repository-settings/changing-the-visibility-of-your-repository) (publico o privado)
+- [Cambiar la visibilidad de un repositorio](https://docs.github.com/es/github/administering-a-repository/managing-repository-settings/changing-the-visibility-of-your-repository) (p&uacute;blico o privado)
 - [Eliminar un repositorio](https://docs.github.com/es/github/administering-a-repository/managing-repository-settings/deleting-a-repository) (Se eliminan todos los datos)
-  - [Archivar un repositorio](https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/archiving-a-github-repository) (Se mantiene la informacion del repositorio, pero deja de ser visible)
+  - [Archivar un repositorio](https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/archiving-a-github-repository) (Se mantiene la informaci&oacute;n del repositorio, pero deja de ser visible)
 
-Para más información, se sugiere revisar la [documentación oficial de Github](https://docs.github.com/es)
+Para m&aacute;s informaci&oacute;n, se sugiere revisar la [documentaci&oacute;n oficial de GitHub](https://docs.github.com/es)
 
 ### Entrega
 
@@ -97,7 +97,7 @@ Para más información, se sugiere revisar la [documentación oficial de Github]
 
 Para realizar la entrega, se debe seguir los siguientes pasos:
 
-1. Duplicar el repositorio en su cuenta de Github usando el template provisto. Para ello, se debe hacer click en el botón "Use this template" en la parte superior de la página. [ver guia](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+1. Duplicar el repositorio en su cuenta de Github usando el template provisto. Para ello, se debe hacer click en el bot&oacute;n `Use this template` en la parte superior de la p&aacute;gina. [ver guia](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 ![Use this template](./images/use-this-template-button.webp)
 
@@ -110,7 +110,7 @@ cd nombreDelRepo
 
 3. Realizar los cambios necesarios acorde a el archivo `entrega/ejercicio.md` para completar la consigna del ejercicio.
 
-4. Agregar los cambios al área de preparación y realizar un commit.
+4. Agregar los cambios al &aacute;rea de preparaci&oacute;n y realizar un commit.
 
 ```bash
 git add .
@@ -123,4 +123,4 @@ git commit -m "Entrega de Nombre Apellido - NroEstudiante"
 git push
 ```
 
-6. Copiar la URL del repositorio y enviarla por Teams. _(Asegurarse de que el repositorio sea publico, para que pueda ser accedido por los docentes)._
+6. Copiar la URL del repositorio y enviarla por Teams. _(Asegurarse de que el repositorio sea p&uacute;blico, para que pueda ser accedido por los docentes)._
