@@ -4,23 +4,13 @@ En este directorio se encuentran los archivos correspondientes a la entrega.
 
 ## Consigna
 
-Una veterinaria necesita un sistema con ciertas características para
-realizar distintas actividades. Las mismas consisten en registros de
-pacientes, citas y accesorios, entre otras.
+A modo de repaso se solicita crear un menú básico en bash, este debe de contar con 4 opciones. Se puede utilizar el código entregado en el obligatorio o crear un nuevo menú desde cero. 
 
-### Registro de socios
+En cada una de las opciones queda a interpretación del alumno implementar una función o simplemente mostrar por pantalla la opción elegida.
 
-Se requiere generar un script en bash, que permita registrar a los socios de la veterinaria.
-Para ello, se debe poder ingresar **nombre** y **cédula** del dueño, **nombre** y **edad** de la mascota, y un **mail** de contacto.
+El menú debe quedar en loop a menos que se ingrese la opción para salir o detener la ejecución.
 
-#### Validaciones
-
-- El nombre del dueño y de la mascota no pueden ser vacíos.
-- Debe poder validarse que tenga el s&iacute;mbolo de @ en el mail
-- Debe verificar que su cédula no exista en el sistema previamente.
-
-Una vez verificado, se ingresa el socio al archivo `socios.txt` con
-el número correspondiente.
+El objetivo de esta entrega es evaluar el uso de git y repasar de forma básica bah.
 
 ## Entrega
 
